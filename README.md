@@ -1,5 +1,7 @@
 # Java: platform threads vs virtual threads
 
+![Platform threads vs virtual threads, from the HTTP request down to the CPU (in Portuguese)](docs/infographic.png)
+
 The smallest comparison of the same blocking workload on traditional threads (a fixed pool of
 platform threads) and on virtual threads (Java 21+). The two `main` classes differ in one line:
 
